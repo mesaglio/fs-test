@@ -27,7 +27,7 @@ do
 	mkdir $VAR3
 	cd $VAR3
 	VARF="File_$files_counter"
-	dd if=/dev/random of=$VARF bs=1024 count=10
+	dd if=/dev/urandom of=$VARF bs=1024 count=10
 	echo "Create $VARF on $VAR3"
 	cd ..
 	sleep 0.5
