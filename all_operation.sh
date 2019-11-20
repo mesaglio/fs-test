@@ -47,7 +47,7 @@ files=5
 while [ $files -le 10 ]
 do
 	VAR1="Data_file_$files"
-    VAR2="DIR_2/"
+    	VAR2="DIR_2/"
 	mv $VAR1 $VAR2
 	((files++))
 done 
